@@ -30,14 +30,14 @@
 
 </script>
 
-<main class="min-h-screen min-w-screen flex">
+<main class="min-h-screen min-w-screen flex overflow-x-hidden">
 
   <!-- Sidebar -->
   <div class="bg-cyan-950 min-h-full w-[200px] fixed overscroll-y-none shadow-black text-blue-50">
 
-    <div class="flex flex-col items-center gap-24 pt-10">
+    <div class="flex flex-col items-center">
       
-      <div class="w-full flex flex-col items-center gap-2">
+      <div class="w-full flex flex-col items-center gap-2 bg-cyan-900 border-b border-b-blue-50 py-8 pb-6">
         <div class="h-[150px] w-[150px] bg-cyan-950 rounded-full">
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img class="rounded-full" src={profilePic} alt="Profile picture, Robin Salminen" >
@@ -45,7 +45,7 @@
         <h2>Robin Salminen</h2>
       </div>
 
-      <div class="flex flex-col w-full items-end pt-1 gap-1 text-[17px] font-medium">
+      <div class="flex flex-col w-full items-end pt-8 gap-1 text-[17px] font-medium">
         <ScrollLink str={"About me"} refStr={'about'} bind:index={index} bind:tempIndex={tempIndex} bind:isAutoScrolling={isAutoScrolling} />
         <ScrollLink str={"Projects"} refStr={'projects'} bind:index={index} bind:tempIndex={tempIndex} bind:isAutoScrolling={isAutoScrolling} />
         <ScrollLink str={"Contact"} refStr={'contact'} bind:index={index} bind:tempIndex={tempIndex} bind:isAutoScrolling={isAutoScrolling} />
@@ -71,7 +71,7 @@
 
       <div slot="foreground">
         <section use:scrollRef={'about'} class="min-h-screen flex justify-center">
-          <div class="w-[70%] flex flex-col gap-5 pt-5">
+          <div class="w-[70%] flex flex-col gap-5 pt-7">
 
             <Header>About me</Header>
 
@@ -117,7 +117,7 @@
         </section>
 
         <section use:scrollRef={'projects'} class="w-full min-h-screen flex flex-col items-center pt-3">
-          <div class="w-[70%] flex flex-col gap-5 pt-5">
+          <div class="w-[70%] flex flex-col gap-5 pt-7">
 
             <Header>Projects</Header>
             <div>
@@ -161,7 +161,7 @@
 
               <ul class="list-disc py-2 px-6">
                 <li class="py-1">MarkkanenStats: a simple Next.js application that quickly shows statistics from Lauri Markkanens most recent game. Uses Next.js API routes to connect to an external API for the data. Available at: <PopupLink href="https://markkanenstats.vercel.app/">https://markkanenstats.vercel.app</PopupLink></li>
-                <li class="py-1">LiikenneHaukka: a ReactJS + ExpressJS fullstack application that finds the local traffic incidents, helping the user avoid traffic jams. Uses the traffic notice API by DigiTraffic. Available at: <PopupLink href="https://liikennehaukka.onrender.com/">https://liikennehaukka.onrender.com</PopupLink></li>
+                <li class="py-1">Liikennehaukka: a ReactJS + ExpressJS fullstack application that finds the local traffic incidents, helping the user avoid traffic jams. Uses the traffic notice API by DigiTraffic. Available at: <PopupLink href="https://liikennehaukka.onrender.com/">https://liikennehaukka.onrender.com</PopupLink></li>
               </ul>
               
               
@@ -169,7 +169,7 @@
           </div>
         </section>
         <section use:scrollRef={'contact'} class="w-full min-h-screen flex flex-col items-center pt-3">
-          <div class="w-[70%] flex flex-col gap-5 pt-5">
+          <div class="w-[70%] flex flex-col gap-5 pt-7">
             <Header>Contact</Header>
 
             <div class="flex mt-10 gap-3 h-7 items-center">

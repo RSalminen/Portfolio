@@ -14,6 +14,6 @@
 
 </script>
 
-<button class={(sections[isAutoScrolling ? tempIndex : index] === refStr ? "bg-blue-50 text-black pl-8 pr-4 rounded-l-sm flex justify-end" : "pr-24 w-fit") + "py-[1px] transition-all duration-1000"} on:click={() => tempIndex = sections.indexOf(refStr)} use:scrollTo={refStr}>
+<button class={(sections[isAutoScrolling ? tempIndex : index] === refStr ? "border-b-4 border-blue-50" : "")} on:click={() => tempIndex = sections.indexOf(refStr)} use:scrollTo={refStr}>
     {str}
 </button>

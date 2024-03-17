@@ -158,7 +158,7 @@
               <Subheader classStr="mb-1">Master's thesis - A web-based application for visualizing CFD results</Subheader>
               
               <div class="py-1.5 md:px-5 flex justify-center lg:float-right">
-                <img class="w-full sm:w-[300px] xl:w-[460px] rounded-md shadow-md shadow-gray-800" src={roomCW} alt="A CFD simulation displayed in the CFD Viewer Application">
+                <img class="w-full sm:w-[300px] xl:w-[430px] rounded-md shadow-md shadow-gray-800" src={roomCW} alt="A CFD simulation displayed in the CFD Viewer Application">
               </div>
               
               <Text classStr="py-1.5">

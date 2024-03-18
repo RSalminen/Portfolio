@@ -112,8 +112,8 @@
                 Welcome to my portfolio page! I'm Robin Salminen, a 26 year old Finnish engineer holding an
                 MSc in Advanced Energy Conversions from Aalto University, completed with high honors. 
                 My studies were heavily focused on energy conversion, fluid dynamics and programming. Additionally, I took part in other
-                energy-related projects, which included designing a potential wind farm and investigating effects from the electrification road transport
-                sector on the Finnish electricity grid.
+                energy-related projects, which included designing a potential wind farm and investigating effects from the electrification 
+                of the road transport sector on the Finnish electricity grid.
                 I currently work at ARKANCE as a software designer, and my tasks span from maintaining local IP software applications
                 to developing new software applications in customer projects.
                 The combination of my education and work experience has provided me a versatile set of skills applicable to various fields.
@@ -126,13 +126,13 @@
                   <span class="font-medium">General: </span>OpenFoam, Matlab, Simulink, Cantera, CI/CD
                 </Text>
                 <Text>
-                  <span class="font-medium">Desktop Application Programming:</span> C, C++, C#, .NET, Avalonia UI, WPF, WinForms, Vulkan
+                  <span class="font-medium">Desktop Application Programming:</span> C, C++, C#, Python, .NET, Avalonia UI, WPF, WinForms, Vulkan
                 </Text>
                 <Text>
                   <span class="font-medium">Web Application Programming, frontend:</span> JavaScript, TypeScript, ReactJS, Next.js, Svelte, Vue, Angular, Three.js
                 </Text>
                 <Text>
-                  <span class="font-medium">Web Application Programming, backend:</span> .NET, Node.JS, SQL, NoSQL, Object Storage Service
+                  <span class="font-medium">Web Application Programming, backend:</span> .NET, Node.JS, SQL, NoSQL, Object Storage Service, Docker
                 </Text>
               </div>
 
